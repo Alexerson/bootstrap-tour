@@ -292,7 +292,6 @@
           current_path = [document.location.pathname, document.location.hash].join("");
           if (_this._isRedirect(path, current_path)) {
             _this._redirect(step, path);
-            return;
           }
           if (_this._isOrphan(step)) {
             if (!step.orphan) {
