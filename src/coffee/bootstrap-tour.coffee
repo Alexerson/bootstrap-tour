@@ -249,7 +249,6 @@
         current_path = [document.location.pathname, document.location.hash].join("")
         if @_isRedirect path, current_path
           @_redirect step, path
-          return
 
         # Skip if step is orphan and orphan options is false
         if @_isOrphan step
