@@ -430,7 +430,6 @@
         animation: step.animation
         container: step.container
         template: step.template
-        selector: step.element
       )
       .popover 'show'
 
